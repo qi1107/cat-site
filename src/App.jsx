@@ -3,7 +3,6 @@ import cloudbase from '@cloudbase/js-sdk';
 
 // 1. 初始化 CloudBase (会自动读取 .env.local 里的环境变量)
 const app = cloudbase.init({
-  env: import.meta.env.VITE_CB_ENV,
   accessKey: import.meta.env.VITE_CB_KEY
 });
 
